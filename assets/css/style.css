@@ -1,14 +1,34 @@
 
+#home {
+	height: 100vh;
+}
+
 .jumbotron {
 	border: 5px solid gray;
 	background: rgba(128,128,128,0.15);
 	margin-top: 50px;
+	transform: translate(10%,70%);
 }
 
 #portfolio {
 	height: 100vh;
 }
 
+#skills {
+	height: 100vh;
+}
+
+#contact {
+	height: 100vh;
+}
+
+.fadeInLeft {
+	animation-delay: 2s;
+}
+
+.fadeInRight {
+	animation-delay: 2s;
+}
 
 
 /*TABLET STYLE**************************/

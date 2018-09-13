@@ -41,6 +41,11 @@
         </li>
 
         <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+
+        <li class="nav-item">
           <a class="nav-link" href="#contact">Cotact</a>
         </li>
 
@@ -50,9 +55,9 @@
 
 
 <div class="container">
-  <div class="row">
+  <div class="row" id="home">
     <div class="col-lg-1"></div>
-    <div class="col-lg-10 col-md-12 col-sm-12">
+    <div class="col-lg-9 col-md-12 col-sm-12">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Joyce Perez</h1>
@@ -70,13 +75,73 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
-      <div class="text-center" id="portfolio">
+      <div class="text-center animated rubberBand" id="portfolio">
         <h1>MY PORTFOLIO</h1>
       </div>
     </div>
   </div> <!-- end of row -->
-</div> <!-- end of container -->
 
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+      <div class="text-center" id="skills">
+        <h1 class="animated rubberBand">MY SKILLS</h1>
+        <div class="container"> <!-- nested -->
+
+          <div class="row mb-5 mt-5 animated fadeInLeft">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+              <h4>HTML</h4>
+            </div>
+            <div class="col-lg-7">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div> <!-- end of html progress bar -->
+            </div> <!-- end of html col -->
+          </div> <!-- end of html row -->
+          
+          <div class="row mb-5 mt-5 animated fadeInRight">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+              <h4>CSS</h4>
+            </div>
+            <div class="col-lg-7">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div> <!-- end of css progress bar -->
+             </div> <!-- end of css col -->
+          </div> <!-- end of css row -->
+
+          <div class="row mb-5 mt-5 animated fadeInLeft">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+              <h4>BOOTSTRAP</h4>
+            </div>
+            <div class="col-lg-7">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 7%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">7%</div>
+              </div> <!-- end of bootstrap progress bar -->
+            </div> <!-- end of bootstrap col -->
+          </div> <!-- end of bootstrap row -->
+
+
+        </div> <!-- end of nested container -->
+      </div> <!-- end of skills -->
+    </div> <!--  end of col for skills -->
+  </div> <!-- end of main-row -->
+
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+      <div class="text-center" id="contact">
+        <h1 class="animated rubberBand">CONTACT</h1>
+      </div> <!-- end of contact -->
+    </div> <!-- end of col for contact -->
+  </div> <!-- end of contact row -->
+
+  
+
+</div> <!-- end of portfolio -->
 
 <!-- jquery first then popper then bootstrap js -->
 <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
